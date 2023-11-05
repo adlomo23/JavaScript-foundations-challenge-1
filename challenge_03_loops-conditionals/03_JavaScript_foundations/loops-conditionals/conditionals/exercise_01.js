@@ -7,3 +7,11 @@
 
     HINT: modulus operator ( % ) is your friend
 */
+
+var number = 3;
+
+if(number % 2 === 0){
+    console.log("That number is even");
+} else{
+    console.log("That number is odd");
+}
