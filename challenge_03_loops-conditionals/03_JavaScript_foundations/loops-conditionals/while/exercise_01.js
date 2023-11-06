@@ -4,16 +4,20 @@
     2. Create a while loop that will print out all the odd numbers between 10 and 40.
 */
 
+let number = 10;
+
 // Només nombres parells
-let evenNumber = 10;
 while (evenNumber <= 40) {
-  console.log(evenNumber);
-  evenNumber += 2;
+  if (number % 2 === 0){
+    console.log(evenNumber);
+  }
+  evenNumber ++;
 }
 
 // Només nombres imparells
-let oddNumber = 11;
-while (oddNumber <= 39) {
-  console.log(oddNumber);
-  oddNumber += 2;
+while (number <= 40) {
+  if (number % 2 === 1){
+    console.log(oddNumber);
+  }
+  oddNumber ++;
 }
