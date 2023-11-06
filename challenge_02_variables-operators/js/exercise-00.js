@@ -15,10 +15,8 @@ const varBoolean = true;
 const varNull = null;
 const varUndefined = undefined;
 
-
-console.log({varString});
-console.log({varNumber});
-console.log({varBoolean});
-console.log({varNull});
-console.log({varUndefined});
-
+console.log({ varString });
+console.log({ varNumber });
+console.log({ varBoolean });
+console.log({ varNull });
+console.log({ varUndefined });
