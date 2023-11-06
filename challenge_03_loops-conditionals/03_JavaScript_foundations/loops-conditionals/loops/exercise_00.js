@@ -5,11 +5,15 @@
 */
 
 // Nombres parells
-for (let number = 10; number <= 40; number += 2) {
-  console.log(number);
+for (let number = 10; number <= 40; number ++) {
+  if (number % 2 === 0){
+    console.log(number);
+  }
 }
 
 // Nombres imparells
-for (let number = 11; number <= 40; number += 2) {
-  console.log(number);
+for (let number = 10; number <= 40; number ++) {
+  if (number % 2 === 1){
+    console.log(number);
+  }
 }
