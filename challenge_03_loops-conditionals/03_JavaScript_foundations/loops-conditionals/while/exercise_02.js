@@ -21,7 +21,7 @@
 
 let num = 1;
 
-while (num <= 100) {
+while (num <= 90) {
   if (num % 10 === 0) {
     console.log("Checkpoint! " + num);
   }

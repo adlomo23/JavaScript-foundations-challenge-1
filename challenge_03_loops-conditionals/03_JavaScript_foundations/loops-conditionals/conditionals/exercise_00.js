@@ -10,9 +10,9 @@
 */
 
 console.log("--- Animal Checker Program ---")
-var animal = "cat";
+let animal = "cat";
 
-if(anime === "cat"){
+if(animal === "cat"){
     console.log("Meow!");
 } else if(animal === "dog"){
     console.log("Woof!");

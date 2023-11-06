@@ -19,5 +19,5 @@ if (age < 3) {
 }
 
 // In every if you must especify the range of the age,
-//  for example i the firts else if it should be: age >=3 && age <13,
+//  for example in the firts else if it should be: age >=3 && age <13,
   // and this for the rest of the else if.

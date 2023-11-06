@@ -41,7 +41,7 @@ for (let i = 1; i <=100; i++){
     } else{
         console.log(i);
     }
-
-    console.log("You made it!")
-    console.log("All, done!");
-}
+  }
+  
+  console.log("You made it!")
+  console.log("All, done!");
